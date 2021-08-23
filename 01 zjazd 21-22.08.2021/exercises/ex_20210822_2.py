@@ -37,5 +37,5 @@ while True:
         print(digit_1 / digit_2)
     else:
         if decision == '5':
-            quit()
-            # break
+            # quit()
+            break
