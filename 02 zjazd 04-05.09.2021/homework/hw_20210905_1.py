@@ -21,12 +21,12 @@ if __name__ == "__main__":
     while choice == 't':
         list_1 = []
         list_2 = []
-        list_lenght_1 = int(input('Podaj jaką długą pierwszą listę chcesz stworzyć: '))
-        for item in range(list_lenght_1):
+        list_length_1 = int(input('Podaj jaką długą pierwszą listę chcesz stworzyć: '))
+        for item in range(list_length_1):
             digit = int(input('Podaj liczbę do listy: '))
             list_1.append(digit)
-        list_lenght_2 = int(input('Podaj jaką długą drugą listę chcesz stworzyć: '))
-        for item in range(list_lenght_2):
+        list_length_2 = int(input('Podaj jaką długą drugą listę chcesz stworzyć: '))
+        for item in range(list_length_2):
             digit = int(input('Podaj liczbę do listy: '))
             list_2.append(digit)
         print('Suma pozycji obu list wynosi:', add_lists(list_1, list_2))
