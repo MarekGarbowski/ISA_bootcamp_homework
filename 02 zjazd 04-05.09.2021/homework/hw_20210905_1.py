@@ -7,11 +7,11 @@
 
 
 def add_lists(a, b):
-    c = []
+    list_sum = []
     if len(a) == len(b):
         for x, y in zip(a, b):
-            c.append(x + y)
-        return c
+            list_sum.append(x + y)
+        return list_sum
     else:
         return 'Podane listy muszą być tej samej długości'
 
