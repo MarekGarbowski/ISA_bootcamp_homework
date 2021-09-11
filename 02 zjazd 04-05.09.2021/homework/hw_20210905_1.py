@@ -31,3 +31,14 @@ if __name__ == "__main__":
             list_2.append(digit)
         print('Suma pozycji obu list wynosi:', add_lists(list_1, list_2))
         choice = input('Jeśl chcesz jesze raz wykonać sumowanie, wpisz "t", jeśli nie to wciśnij dowolny klawisz:  ')
+
+
+
+# Alternative solution from homework explnation :
+
+
+# if __name__ == "__main__":
+#     def dodaj_listy_input():
+#         raw_input1 = input('Podaj liste liczb oddzielonych od siebie przecinkiem: ')
+#         raw_input2 = input('Podaj liste liczb oddzielonych od siebie przecinkiem: ')
+#         return [int(element) for element in [element.strip() for element in raw_input1.split(',')]]
