@@ -34,4 +34,3 @@ if __name__ == "__main__":
         z = int(input('Podaj bok C trójkąta "ABC": '))
         print(check_triangle(x, y, z))
         choice = input('Jeśli chcessz jeszcze raz sprawdzić trójkąt wcisnij "t", jeśli nie to dowolny inny: ')
-
